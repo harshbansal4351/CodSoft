@@ -1,0 +1,144 @@
+<link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsec{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+.firstsec > div{
+    width: 30%;
+}
+.leftsec{
+    font-size: 2.5rem;
+}
+.leftsec .buttons{
+    padding: 50px 0;
+}
+.leftsec .btn{
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rightsec img{
+    width: 80%;
+}
+.purple{
+    color: rgb(170, 107, 228);
+}
+.secondsec{
+    max-width: 80vw;
+    margin: auto;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+.secondsec{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    margin-left: 23px;
+    align-items: center;
+}
+.secondsec h1{
+    font-size: .7em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.secondsec .about{
+    font-size: 1rem;
+    margin: 23px 0;
+}
+.secondsec .leftsec img{
+    margin: auto;
+    width: 18%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.thirdsec{
+    display: flex;
+    margin: 50px 0;
+    margin-left: 23px;
+    align-items: center;
+}
+.thirdsec h1{
+    font-size: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-top: -2px;
+}
+.thirdsec .lftsect{
+    margin: 24px;
+    margin-bottom: 76px;
+    font-size: 1.3rem;
+}
+.thirdsec .rigtsect{
+    margin-top: 0px;
+    text-align: left;
+    font-size: 1.3rem;
+    margin-left: 50px;
+}
+.fourthsec{
+    display: flex;
+    margin: 50px 0;
+    margin-left: 23px;
+    align-items: center;
+}
+.fourthsec h1{
+    font-size: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.fifthsec{
+    display: flex;
+    margin: 50px 0;
+    margin-left: 23px;
+    align-items: center;
+}
+.fifthsec h1{
+    font-size: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
